@@ -21,3 +21,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+data/db/
+*.wt
+*.lock
+*.turtle
+*.bson
+*.log
+*.Preplog*
+journal/
