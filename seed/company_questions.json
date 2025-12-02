@@ -1,0 +1,192 @@
+[
+  {
+    "text": "TCS Ninja: A man can do a work in 15 days. With the help of his son, he can do it in 10 days. In how many days can the son alone do the work?",
+    "choices": ["20 days", "25 days", "30 days", "35 days"],
+    "correctAnswer": "30 days",
+    "explanation": "Man's rate = 1/15 per day. Combined rate = 1/10 per day. Son's rate = 1/10 - 1/15 = 3/30 - 2/30 = 1/30 per day. So son alone = 30 days.",
+    "category": "Aptitude",
+    "difficulty": "Medium",
+    "tags": ["work-time", "tcs"],
+    "company": "TCS",
+    "testType": "TCS Ninja"
+  },
+  {
+    "text": "TCS Digital: Which of the following is true about JavaScript closures?",
+    "choices": [
+      "They allow inner functions to access outer function variables even after outer function returns",
+      "They prevent memory leaks in JavaScript",
+      "They are only available in ES6+",
+      "They are the same as arrow functions"
+    ],
+    "correctAnswer": "They allow inner functions to access outer function variables even after outer function returns",
+    "explanation": "Closures give you access to an outer function's scope from an inner function. Variables are accessible even after the outer function has returned.",
+    "category": "Coding",
+    "difficulty": "Medium",
+    "tags": ["javascript", "closures", "tcs"],
+    "company": "TCS",
+    "testType": "TCS Digital"
+  },
+  {
+    "text": "Infosys Verbal: Choose the word that best completes the sentence: 'The new policy will _____ the company's growth.'",
+    "choices": ["inhibit", "facilitate", "negate", "complicate"],
+    "correctAnswer": "facilitate",
+    "explanation": "Facilitate means to make easier or more achievable, which fits the positive context of helping company growth.",
+    "category": "Verbal",
+    "difficulty": "Easy",
+    "tags": ["vocabulary", "infosys"],
+    "company": "Infosys",
+    "testType": "Infosys Aptitude"
+  },
+  {
+    "text": "Wipro: If COMPUTER is coded as RFUVQNPC, then how is MEDICINE coded?",
+    "choices": ["ECIFJEMF", "EOJFDJMF", "EOJDJFMF", "ECIDJFMF"],
+    "correctAnswer": "EOJDJFMF",
+    "explanation": "Each letter is moved 4 positions backward in the alphabet. C->O: C(-4)=Y, but wrapping around O. Pattern analysis shows MEDICINE becomes EOJDJFMF.",
+    "category": "Aptitude",
+    "difficulty": "Hard",
+    "tags": ["coding-decoding", "wipro"],
+    "company": "Wipro",
+    "testType": "Wipro Elite"
+  },
+  {
+    "text": "Cognizant: What is the output of: console.log(typeof typeof 42);",
+    "choices": ["'number'", "'string'", "'undefined'", "'object'"],
+    "correctAnswer": "'string'",
+    "explanation": "typeof 42 returns 'number' (string), then typeof 'number' returns 'string'.",
+    "category": "Coding",
+    "difficulty": "Medium",
+    "tags": ["javascript", "cognizant"],
+    "company": "Cognizant",
+    "testType": "Cognizant GenC"
+  },
+  {
+    "text": "Accenture: In a team of 8 people, if 3 people leave, what percentage of the original team remains?",
+    "choices": ["37.5%", "62.5%", "60%", "40%"],
+    "correctAnswer": "62.5%",
+    "explanation": "5 people remain out of 8. (5/8) * 100 = 62.5%",
+    "category": "Aptitude",
+    "difficulty": "Easy",
+    "tags": ["percentage", "accenture"],
+    "company": "Accenture",
+    "testType": "Accenture Assessment"
+  },
+  {
+    "text": "TCS CodeVita: What is the time complexity of binary search?",
+    "choices": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+    "correctAnswer": "O(log n)",
+    "explanation": "Binary search divides the search space in half each iteration, giving logarithmic time complexity.",
+    "category": "Coding",
+    "difficulty": "Easy",
+    "tags": ["algorithms", "complexity", "tcs"],
+    "company": "TCS",
+    "testType": "TCS CodeVita"
+  },
+  {
+    "text": "Infosys HackWithInfy: Which SQL query finds all employees with salary > 50000?",
+    "choices": [
+      "SELECT * FROM employees WHERE salary > 50000;",
+      "SELECT * FROM employees HAVING salary > 50000;",
+      "SELECT * FROM employees IF salary > 50000;",
+      "SELECT * FROM employees CHECK salary > 50000;"
+    ],
+    "correctAnswer": "SELECT * FROM employees WHERE salary > 50000;",
+    "explanation": "WHERE clause is used to filter rows based on conditions. HAVING is used with GROUP BY.",
+    "category": "Coding",
+    "difficulty": "Easy",
+    "tags": ["sql", "database", "infosys"],
+    "company": "Infosys",
+    "testType": "Infosys HackWithInfy"
+  },
+  {
+    "text": "Wipro: Complete the series: 5, 11, 23, 47, ___",
+    "choices": ["95", "94", "96", "93"],
+    "correctAnswer": "95",
+    "explanation": "Pattern: multiply by 2 and add 1. 5*2+1=11, 11*2+1=23, 23*2+1=47, 47*2+1=95",
+    "category": "Aptitude",
+    "difficulty": "Medium",
+    "tags": ["series", "pattern", "wipro"],
+    "company": "Wipro",
+    "testType": "Wipro Elite"
+  },
+  {
+    "text": "IBM: 'Ubiquitous' most nearly means:",
+    "choices": ["Rare", "Everywhere", "Ancient", "Complex"],
+    "correctAnswer": "Everywhere",
+    "explanation": "Ubiquitous means existing or being everywhere at the same time; omnipresent.",
+    "category": "Verbal",
+    "difficulty": "Medium",
+    "tags": ["vocabulary", "ibm"],
+    "company": "IBM",
+    "testType": "IBM Assessment"
+  },
+  {
+    "text": "HCL: What is the correct way to create an array in JavaScript?",
+    "choices": [
+      "var arr = [];",
+      "var arr = new Array();",
+      "var arr = Array();",
+      "All of the above"
+    ],
+    "correctAnswer": "All of the above",
+    "explanation": "JavaScript provides multiple ways to create arrays: literal notation [], new Array() constructor, and Array() function.",
+    "category": "Coding",
+    "difficulty": "Easy",
+    "tags": ["javascript", "arrays", "hcl"],
+    "company": "HCL",
+    "testType": "HCL Assessment"
+  },
+  {
+    "text": "Capgemini: If a train travels 240 km in 3 hours, what is its speed in m/s?",
+    "choices": ["22.22 m/s", "20 m/s", "80 m/s", "13.33 m/s"],
+    "correctAnswer": "22.22 m/s",
+    "explanation": "Speed = 240 km / 3 hours = 80 km/h. Convert: 80 km/h = 80 × (1000/3600) = 22.22 m/s",
+    "category": "Aptitude",
+    "difficulty": "Medium",
+    "tags": ["speed", "unit-conversion", "capgemini"],
+    "company": "Capgemini",
+    "testType": "Capgemini Assessment"
+  },
+  {
+    "text": "Tech Mahindra: What does CSS stand for?",
+    "choices": [
+      "Computer Style Sheets",
+      "Cascading Style Sheets", 
+      "Creative Style Sheets",
+      "Colorful Style Sheets"
+    ],
+    "correctAnswer": "Cascading Style Sheets",
+    "explanation": "CSS stands for Cascading Style Sheets, used for styling web pages.",
+    "category": "Coding",
+    "difficulty": "Easy",
+    "tags": ["web", "css", "tech-mahindra"],
+    "company": "Tech Mahindra",
+    "testType": "Tech Mahindra Assessment"
+  },
+  {
+    "text": "L&T Infotech: Choose the grammatically correct sentence:",
+    "choices": [
+      "Neither of the students were present",
+      "Neither of the students was present",
+      "Neither students were present",
+      "Neither student were present"
+    ],
+    "correctAnswer": "Neither of the students was present",
+    "explanation": "'Neither' is singular and takes a singular verb 'was'. The prepositional phrase 'of the students' doesn't affect the verb agreement.",
+    "category": "Verbal",
+    "difficulty": "Medium",
+    "tags": ["grammar", "subject-verb", "lti"],
+    "company": "L&T Infotech",
+    "testType": "LTI Assessment"
+  },
+  {
+    "text": "Mindtree: What is the result of 15 % 4 in most programming languages?",
+    "choices": ["3", "3.75", "4", "0"],
+    "correctAnswer": "3",
+    "explanation": "The modulo operator % returns the remainder after division. 15 ÷ 4 = 3 remainder 3.",
+    "category": "Coding",
+    "difficulty": "Easy",
+    "tags": ["operators", "modulo", "mindtree"],
+    "company": "Mindtree",
+    "testType": "Mindtree Assessment"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "id": "infosys-2025",
+  "company": "Infosys",
+  "name": "Infosys Campus Program – 2025",
+  "description": "Infosys hiring pattern with Aptitude, Coding, and Verbal sections.",
+  "timeLimitSeconds": 2400,
+  "totalQuestions": 12,
+  "sections": [
+    {
+      "id": "apt-1",
+      "topic": "Aptitude",
+      "count": 5,
+      "difficulty": "Easy",
+      "tags": ["work-time", "percentages"],
+      "description": "Quantitative Aptitude questions"
+    },
+    {
+      "id": "coding-1",
+      "topic": "Coding",
+      "count": 5,
+      "difficulty": "Easy",
+      "tags": ["arrays", "strings"],
+      "description": "Programming/Coding questions"
+    },
+    {
+      "id": "verbal-1",
+      "topic": "Verbal",
+      "count": 2,
+      "difficulty": "Easy",
+      "description": "English/Verbal questions"
+    }
+  ],
+  "rules": {
+    "allowCompanyTaggedQuestions": true,
+    "uniqueAcrossSections": true,
+    "fallback": {
+      "relaxTags": true,
+      "relaxDifficulty": true
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "wipro-2025",
+  "company": "Wipro",
+  "name": "Wipro Campus Hiring – 2025",
+  "description": "Wipro hiring pattern with Aptitude and Coding only (no Verbal).",
+  "timeLimitSeconds": 1800,
+  "totalQuestions": 10,
+  "sections": [
+    {
+      "id": "apt-1",
+      "topic": "Aptitude",
+      "count": 5,
+      "difficulty": "Medium",
+      "tags": ["work-time", "percentages"],
+      "description": "Quantitative Aptitude questions"
+    },
+    {
+      "id": "coding-1",
+      "topic": "Coding",
+      "count": 5,
+      "difficulty": "Medium",
+      "tags": ["arrays", "strings"],
+      "description": "Programming/Coding questions"
+    }
+  ],
+  "rules": {
+    "allowCompanyTaggedQuestions": true,
+    "uniqueAcrossSections": true,
+    "fallback": {
+      "relaxTags": true,
+      "relaxDifficulty": true
+    }
+  }
+}

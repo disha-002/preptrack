@@ -1,0 +1,41 @@
+{
+  "id": "tcs-2025",
+  "company": "TCS",
+  "name": "TCS Digital – 2025",
+  "description": "TCS Digital hiring pattern with Aptitude, Coding, and Verbal sections.",
+  "timeLimitSeconds": 2700,
+  "totalQuestions": 15,
+  "sections": [
+    {
+      "id": "apt-1",
+      "topic": "Aptitude",
+      "count": 8,
+      "difficulty": "Medium",
+      "tags": ["work-time", "percentages", "algebra"],
+      "description": "Quantitative Aptitude questions"
+    },
+    {
+      "id": "coding-1",
+      "topic": "Coding",
+      "count": 5,
+      "difficulty": "Easy",
+      "tags": ["arrays", "strings", "javascript"],
+      "description": "Programming/Coding questions"
+    },
+    {
+      "id": "verbal-1",
+      "topic": "Verbal",
+      "count": 2,
+      "difficulty": "Easy",
+      "description": "English/Verbal questions"
+    }
+  ],
+  "rules": {
+    "allowCompanyTaggedQuestions": true,
+    "uniqueAcrossSections": true,
+    "fallback": {
+      "relaxTags": true,
+      "relaxDifficulty": true
+    }
+  }
+}

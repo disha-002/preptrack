@@ -1,0 +1,41 @@
+{
+  "id": "accenture-2025",
+  "company": "Accenture",
+  "name": "Accenture Candidate Assessment – 2025",
+  "description": "Accenture hiring pattern with Aptitude, Coding, and Verbal sections.",
+  "timeLimitSeconds": 2400,
+  "totalQuestions": 14,
+  "sections": [
+    {
+      "id": "apt-1",
+      "topic": "Aptitude",
+      "count": 6,
+      "difficulty": "Medium",
+      "tags": ["work-time", "percentages", "speed-distance"],
+      "description": "Quantitative Aptitude questions"
+    },
+    {
+      "id": "coding-1",
+      "topic": "Coding",
+      "count": 6,
+      "difficulty": "Medium",
+      "tags": ["arrays", "strings", "algorithms"],
+      "description": "Programming/Coding questions"
+    },
+    {
+      "id": "verbal-1",
+      "topic": "Verbal",
+      "count": 2,
+      "difficulty": "Easy",
+      "description": "English/Verbal questions"
+    }
+  ],
+  "rules": {
+    "allowCompanyTaggedQuestions": true,
+    "uniqueAcrossSections": true,
+    "fallback": {
+      "relaxTags": true,
+      "relaxDifficulty": true
+    }
+  }
+}

@@ -1,0 +1,263 @@
+[
+  {
+    "text": "If the ratio of A:B is 3:4 and B:C is 2:5, what is A:C?",
+    "choices": ["3:10","6:20","6:35","5:8"],
+    "correctAnswer": "6:35",
+    "explanation": "A:B = 3:4 and B:C = 2:5. Let B = 4k and also B = 2m => scale to common B: multiply first ratio by 1 and second by 2 => A:B = 3:4, B:C = 4:10 so A:C = 3:10? Wait rescale: make B common = 4*? Better compute via fractions: A/B = 3/4, B/C = 2/5 => A/C = (A/B)*(B/C) = (3/4)*(2/5) = 6/20 = 3/10 => ratio 3:10.",
+    "category": "Aptitude",
+    "difficulty": "Easy",
+    "tags": ["ratio","numbers"]
+  },
+  {
+    "text": "What is the next number in the series: 2, 6, 12, 20, ?",
+    "choices": ["28","30","26","24"],
+    "correctAnswer": "30",
+    "explanation": "Sequence is n(n+1): 1*2=2,2*3=6,3*4=12,4*5=20,next is 5*6=30.",
+    "category": "Aptitude",
+    "difficulty": "Easy",
+    "tags": ["series","pattern"]
+  },
+  {
+    "text": "Solve for x: 2x + 7 = 19",
+    "choices": ["6","5","7","4"],
+    "correctAnswer": "6",
+    "explanation": "2x = 12 => x = 6.",
+    "category": "Aptitude",
+    "difficulty": "Easy",
+    "tags": ["algebra"]
+  },
+  {
+    "text": "Which data structure uses FIFO order?",
+    "choices": ["Stack","Queue","Tree","Graph"],
+    "correctAnswer": "Queue",
+    "explanation": "Queue uses First-In-First-Out order.",
+    "category": "Coding",
+    "difficulty": "Easy",
+    "tags": ["data-structures"]
+  },
+  {
+    "text": "In Big-O notation, what is the time complexity of binary search on a sorted array of size n?",
+    "choices": ["O(n)","O(log n)","O(n log n)","O(1)"],
+    "correctAnswer": "O(log n)",
+    "explanation": "Binary search halves the search space each step, so O(log n).",
+    "category": "Coding",
+    "difficulty": "Easy",
+    "tags": ["algorithms","search"]
+  },
+  {
+    "text": "Which HTML tag is used to include JavaScript code?",
+    "choices": ["<script>","<js>","<code>","<javascript>"],
+    "correctAnswer": "<script>",
+    "explanation": "The <script> tag is used to embed JavaScript.",
+    "category": "Coding",
+    "difficulty": "Easy",
+    "tags": ["web","html"]
+  },
+  {
+    "text": "Choose the correctly punctuated sentence:",
+    "choices": ["Its time to go.","It's time to go.","Its' time to go.","Its, time to go."],
+    "correctAnswer": "It's time to go.",
+    "explanation": "It's is the contraction for 'it is'.",
+    "category": "Verbal",
+    "difficulty": "Easy",
+    "tags": ["grammar"]
+  },
+  {
+    "text": "Synonym: 'abate'",
+    "choices": ["Increase","Diminish","Ignore","Support"],
+    "correctAnswer": "Diminish",
+    "explanation": "Abate means to lessen or diminish.",
+    "category": "Verbal",
+    "difficulty": "Easy",
+    "tags": ["vocabulary"]
+  },
+  {
+    "text": "What is the output of the following JavaScript code? console.log(typeof null);",
+    "choices": ["'null'","'object'","'undefined'","'number'"],
+    "correctAnswer": "'object'",
+    "explanation": "In JavaScript, typeof null returns 'object' (a legacy bug).",
+    "category": "Coding",
+    "difficulty": "Medium",
+    "tags": ["javascript"]
+  },
+  {
+    "text": "If x^2 = 81, what are the possible values of x?",
+    "choices": ["9 only","-9 only","9 and -9","0"],
+    "correctAnswer": "9 and -9",
+    "explanation": "Square root of 81 is ±9.",
+    "category": "Aptitude",
+    "difficulty": "Easy",
+    "tags": ["algebra"]
+  },
+  {
+    "text": "Which sorting algorithm has worst-case O(n^2) but is O(n) when nearly sorted?",
+    "choices": ["Merge Sort","Quick Sort","Insertion Sort","Heap Sort"],
+    "correctAnswer": "Insertion Sort",
+    "explanation": "Insertion sort is O(n^2) worst-case but efficient on nearly sorted arrays (O(n)).",
+    "category": "Coding",
+    "difficulty": "Medium",
+    "tags": ["algorithms","sorting"]
+  },
+  {
+    "text": "Complete the analogy: Apple is to Fruit as Carrot is to ____.",
+    "choices": ["Vegetable","Drink","Meat","Grain"],
+    "correctAnswer": "Vegetable",
+    "explanation": "Apple belongs to Fruit category; Carrot belongs to Vegetable category.",
+    "category": "Verbal",
+    "difficulty": "Easy",
+    "tags": ["analogy"]
+  },
+  {
+    "text": "A train travels 60 km in 1.5 hours. What is its average speed?",
+    "choices": ["40 km/h","45 km/h","35 km/h","60 km/h"],
+    "correctAnswer": "40 km/h",
+    "explanation": "Speed = distance/time = 60 / 1.5 = 40 km/h.",
+    "category": "Aptitude",
+    "difficulty": "Easy",
+    "tags": ["speed","distance"]
+  },
+  {
+    "text": "Which HTTP status code means 'Not Found'?",
+    "choices": ["200","301","404","500"],
+    "correctAnswer": "404",
+    "explanation": "404 is the standard code for resource not found.",
+    "category": "Coding",
+    "difficulty": "Easy",
+    "tags": ["web","http"]
+  },
+  {
+    "text": "What is the meaning of the idiom 'break the ice'?",
+    "choices": ["To end a relationship","To do something to relieve tension","To literally break ice","To start a fight"],
+    "correctAnswer": "To do something to relieve tension",
+    "explanation": "'Break the ice' means to initiate conversation to reduce discomfort.",
+    "category": "Verbal",
+    "difficulty": "Easy",
+    "tags": ["idioms"]
+  },
+  {
+    "text": "Which of the following is NOT a NoSQL database?",
+    "choices": ["MongoDB","Cassandra","MySQL","Redis"],
+    "correctAnswer": "MySQL",
+    "explanation": "MySQL is a relational SQL database.",
+    "category": "Coding",
+    "difficulty": "Easy",
+    "tags": ["databases"]
+  },
+  {
+    "text": "If 5 machines take 5 minutes to make 5 widgets, how long will 100 machines take to make 100 widgets?",
+    "choices": ["5 minutes","100 minutes","20 minutes","25 minutes"],
+    "correctAnswer": "5 minutes",
+    "explanation": "Rate is constant: each machine makes one widget in 5 minutes, so 100 machines make 100 widgets in 5 minutes.",
+    "category": "Aptitude",
+    "difficulty": "Medium",
+    "tags": ["work-rate"]
+  },
+  {
+    "text": "Which of these keywords creates a new instance of a class in JavaScript?",
+    "choices": ["make","new","create","instanceof"],
+    "correctAnswer": "new",
+    "explanation": "The 'new' keyword constructs an instance from a constructor function/class.",
+    "category": "Coding",
+    "difficulty": "Easy",
+    "tags": ["javascript"]
+  },
+  {
+    "text": "Choose the sentence with correct subject-verb agreement:",
+    "choices": ["The list of items are on the desk.","The team are winning the match.","The bouquet of flowers smells lovely.","The group of friends were arriving late."],
+    "correctAnswer": "The bouquet of flowers smells lovely.",
+    "explanation": "'Bouquet' is singular so uses 'smells'.",
+    "category": "Verbal",
+    "difficulty": "Medium",
+    "tags": ["grammar"]
+  },
+  {
+    "text": "Which algorithm uses a divide and conquer approach?",
+    "choices": ["Merge Sort","Insertion Sort","Bubble Sort","Selection Sort"],
+    "correctAnswer": "Merge Sort",
+    "explanation": "Merge sort divides the array and merges sorted halves.",
+    "category": "Coding",
+    "difficulty": "Medium",
+    "tags": ["algorithms"]
+  },
+  {
+    "text": "Find the meaning of the word 'ephemeral'",
+    "choices": ["Lasting for a very short time","Heavy","Related to history","Capable of being heard"],
+    "correctAnswer": "Lasting for a very short time",
+    "explanation": "Ephemeral means short-lived.",
+    "category": "Verbal",
+    "difficulty": "Medium",
+    "tags": ["vocabulary"]
+  },
+  {
+    "text": "What is the remainder when 2^10 is divided by 3?",
+    "choices": ["1","2","0","3"],
+    "correctAnswer": "1",
+    "explanation": "2 mod 3 =2. Powers cycle: 2^1=2,2^2=1,2^3=2,... 2^10 even exponent => 1.",
+    "category": "Aptitude",
+    "difficulty": "Medium",
+    "tags": ["modular-arithmetic"]
+  },
+  {
+    "text": "Which HTTP method is idempotent?",
+    "choices": ["POST","GET","PATCH","None"],
+    "correctAnswer": "GET",
+    "explanation": "GET is idempotent (safe and repeatable). PUT is also idempotent; POST is not.",
+    "category": "Coding",
+    "difficulty": "Medium",
+    "tags": ["web","http"]
+  },
+  {
+    "text": "A bag contains 3 red and 2 blue balls. If one ball is drawn at random, what is the probability of drawing a red ball?",
+    "choices": ["2/5","3/5","1/2","4/5"],
+    "correctAnswer": "3/5",
+    "explanation": "3 red out of total 5 => 3/5.",
+    "category": "Aptitude",
+    "difficulty": "Easy",
+    "tags": ["probability"]
+  },
+  {
+    "text": "Which of the following is a NoSQL document store?",
+    "choices": ["PostgreSQL","MongoDB","Oracle","SQL Server"],
+    "correctAnswer": "MongoDB",
+    "explanation": "MongoDB is a document-oriented NoSQL database.",
+    "category": "Coding",
+    "difficulty": "Easy",
+    "tags": ["databases"]
+  },
+  {
+    "text": "Select the correct passive voice form: 'The chef cooked the meal.'",
+    "choices": ["The meal was cooked by the chef.","The chef was cooked by the meal.","The meal cooked the chef.","Was the meal cooked by the chef?"],
+    "correctAnswer": "The meal was cooked by the chef.",
+    "explanation": "Passive voice places object as subject: 'The meal was cooked by the chef.'",
+    "category": "Verbal",
+    "difficulty": "Easy",
+    "tags": ["grammar"]
+  },
+  {
+    "text": "What does SQL stand for?",
+    "choices": ["Structured Query Language","Simple Query Language","Sequential Query Language","Standard Query List"],
+    "correctAnswer": "Structured Query Language",
+    "explanation": "SQL stands for Structured Query Language.",
+    "category": "Coding",
+    "difficulty": "Easy",
+    "tags": ["databases"]
+  },
+  {
+    "text": "If the probability of event A is 0.2 and event B is 0.3 and they are independent, what is P(A and B)?",
+    "choices": ["0.6","0.06","0.5","0.03"],
+    "correctAnswer": "0.06",
+    "explanation": "For independent events, multiply probabilities: 0.2 * 0.3 = 0.06.",
+    "category": "Aptitude",
+    "difficulty": "Medium",
+    "tags": ["probability"]
+  },
+  {
+    "text": "Which of these is NOT a JavaScript framework/library?",
+    "choices": ["React","Angular","Laravel","Vue"],
+    "correctAnswer": "Laravel",
+    "explanation": "Laravel is a PHP framework.",
+    "category": "Coding",
+    "difficulty": "Easy",
+    "tags": ["web"]
+  }
+]
