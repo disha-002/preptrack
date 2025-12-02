@@ -37,7 +37,8 @@ function TestPage() {
     // Fallback: fetch from API if needed
     if (!patternId) return;
     try {
-      const response = await fetch(`http://localhost:4000/api/patterns/${patternId}/start`, {
+      const apiBase = process.env.REACT_APP_API_URL || 'http://localhost:4000';
+      const response = await fetch(`${apiBase}/api/patterns/${patternId}/start`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -83,7 +84,8 @@ function TestPage() {
 
         console.log('Submitting responses:', responses);
 
-        const submitResponse = await fetch(`http://localhost:4000/api/attempts/${attemptId}/submit`, {
+        const apiBase = process.env.REACT_APP_API_URL || 'http://localhost:4000';
+        const submitResponse = await fetch(`${apiBase}/api/attempts/${attemptId}/submit`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

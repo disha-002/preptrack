@@ -30,8 +30,9 @@ function ResultsHistory() {
         console.log("Fetching attempts for user:", user.userId);
 
         // Fetch past attempts
+        const apiBase = process.env.REACT_APP_API_URL || 'http://localhost:4000';
         const response = await fetch(
-          `http://localhost:4000/api/users/${user.userId}/attempts`,
+          `${apiBase}/api/users/${user.userId}/attempts`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
